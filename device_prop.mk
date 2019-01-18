@@ -98,10 +98,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.radio.multisim.config=dsds
 
-# DPI
-PRODUCT_PROPERTY_OVERRIDES += \
-	vendor.display.lcd_density=403
-
 # Paper mode
 PRODUCT_PROPERTY_OVERRIDES += \
 	sys.jdi_nt36672_offset=9 \
