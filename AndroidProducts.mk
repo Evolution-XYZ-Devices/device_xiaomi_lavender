@@ -21,11 +21,11 @@
 # definition file).
 #
 
-# Inherit Redmi Note 7 Yodita device config
+# Inherit Redmi Note 7 Carbon device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yodita_lavender.mk
+    $(LOCAL_DIR)/carbon_lavender.mk
 
 COMMON_LUNCH_CHOICES := \
-    yodita_lavender-eng \
-    yodita_lavender-userdebug \
-    yodita_lavender-user
+    carbon_lavender-eng \
+    carbon_lavender-userdebug \
+    carbon_lavender-user
