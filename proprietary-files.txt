@@ -1081,6 +1081,10 @@ vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
 
+# Sensors - from jasmine-user-10-QKQ1.190910.002-V11.0.4.0.QDIMIXM
+vendor/lib/sensors.ssc.so|69970f125d076dac8711c1d1687f7faeb7a75bed
+vendor/lib64/sensors.ssc.so|0ec630386e5f51dfe77acd0fc7886f01dcfc2c86
+
 # Thermal
 vendor/etc/thermal-engine.conf
 vendor/etc/thermal-engine-camera.conf
