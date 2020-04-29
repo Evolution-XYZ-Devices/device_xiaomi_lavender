@@ -27,8 +27,8 @@
 
 on boot
 # Set permission for double tap to wake support
-    chmod 0660 /proc/tp_gesture
-    chown system system /proc/tp_gesture
+    chmod 0660 /sys/touchpanel/double_tap
+    chown system system /sys/touchpanel/double_tap
 
 # Camera ID
     setprop persist.vendor.camera.exif.model "Redmi Note 7"
