@@ -53,7 +53,6 @@ vendor/lib/libarcsoft_beautyshot.so
 vendor/lib/libarcsoft_dualcam_refocus.so
 vendor/lib/libarcsoft_high_dynamic_range.so
 vendor/lib/libarcsoft_supernight.so
-vendor/lib/libcdsprpc.so
 vendor/lib/libcamera_scene.so
 vendor/lib/libc++_shared.so
 vendor/lib/libdepthmapwrapper.so
@@ -144,7 +143,6 @@ vendor/lib/libvideoutils.so
 vendor/lib/libvidhance_gyro.so
 vendor/lib/libXMFD_AgeGender.so
 vendor/lib/mibokeh_660_opencl.bin
-vendor/lib64/libcdsprpc.so
 vendor/lib64/libmmcamera2_frame_algorithm.so
 vendor/lib64/libmmcamera2_is.so
 vendor/lib64/libmmcamera2_q3a_core.so
