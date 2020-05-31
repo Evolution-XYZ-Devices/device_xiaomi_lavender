@@ -35,7 +35,7 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 2
 DEVICE_PATH := device/xiaomi/lavender
 
 # Display
-TARGET_SCREEN_DENSITY := 403
+TARGET_SCREEN_DENSITY := 440
 
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
