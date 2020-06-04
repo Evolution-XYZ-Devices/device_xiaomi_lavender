@@ -32,7 +32,11 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 # Inherit some common AOSP stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
+TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_BOOT_ANIMATION_RES := 1080
+EVO_DONATE_URL := https://paypal.me/Sap1k
+EVO_MAINTAINER := Sap1k
+EVO_SUPPORT_URL := https://t.me/EvolutionXLavender
 
 # Build Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
