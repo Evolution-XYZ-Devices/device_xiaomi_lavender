@@ -1,26 +1,18 @@
 [
  {
-   "remote"       : "xiaomi-sdm660",
-   "repository"   : "xiaomi-sdm660/android_device_xiaomi_sdm660",
-   "target_path"  : "device/xiaomi/sdm660-common",
-   "branch"       : "cr-8.0"
+   "repository"   : "device_xiaomi_sdm660-common",
+   "target_path"  : "device/xiaomi/sdm660-common"
  },
  {
-   "remote"       : "xiaomi-sdm660",
-   "repository"   : "xiaomi-sdm660/android_vendor_xiaomi_lavender",
-   "target_path"  : "vendor/xiaomi/lavender",
-   "branch"       : "cr-8.0"
+   "repository"   : "vendor_xiaomi_lavender",
+   "target_path"  : "vendor/xiaomi/lavender"
  },
  {
-   "remote"       : "xiaomi-sdm660",
-   "repository"   : "xiaomi-sdm660/android_vendor_xiaomi_sdm660-common",
-   "target_path"  : "vendor/xiaomi/sdm660-common",
-   "branch"       : "lineage-17.0"
+   "repository"   : "vendor_xiaomi_sdm660-common",
+   "target_path"  : "vendor/xiaomi/sdm660-common"
  },
  {
-   "remote"       : "github",
-   "repository"   : "LineageOS/android_packages_resources_devicesettings",
-   "target_path"  : "packages/resources/devicesettings",
-   "branch"       : "lineage-17.0"
+   "repository"   : "kernel_xiaomi_lavender",
+   "target_path"  : "kernel/xiaomi/sdm660"
  }
 ]
