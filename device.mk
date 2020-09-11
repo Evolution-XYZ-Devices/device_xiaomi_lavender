@@ -69,6 +69,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	$(DEVICE_PATH)/configs/keylayout/sdm660-snd-card_Button_Jack.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/sdm660-snd-card_Button_Jack.kl
 
+# Hide notch functionality
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay
+    
 # Ramdisk
 PRODUCT_PACKAGES += \
 	init.device.rc
