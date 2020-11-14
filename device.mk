@@ -34,7 +34,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-	 $(DEVICE_PATH)/overlay
+	 $(DEVICE_PATH)/overlay \
+	 $(DEVICE_PATH)/overlay-evo
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -96,7 +97,7 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
 
 # AOSP DEVICE
-PRODUCT_NAME := aosp_lavender
+PRODUCT_NAME := evolution_lavender
 PRODUCT_DEVICE := lavender
 PRODUCT_MODEL := Redmi Note 7 (AOSP)
 PRODUCT_BRAND := Xiaomi
