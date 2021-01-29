@@ -22,6 +22,7 @@
 
     <!-- for statusbar padding -->
     <dimen name="status_bar_extra_padding">8dp</dimen>
+    <dimen name="heads_up_status_bar_padding_start">18dp</dimen>
 
     <!-- Padding for the system icons on the keyguard (when no multi user switch is showing).
     The icons always have a 4dp padding in the container so we only need 41 extra px of padding
