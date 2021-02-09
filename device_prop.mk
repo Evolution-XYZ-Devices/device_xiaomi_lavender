@@ -34,7 +34,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.camera.set.afd=4 \
 	persist.camera.stats.test=0 \
 	persist.sys.exif.make=Xiaomi \
-	persist.radio.VT_CAM_INTERFACE=2 \
 	persist.vendor.camera.multicam.hwsync=TRUE \
 	persist.vendor.camera.multicam.fpsmatch=TRUE \
 	persist.vendor.camera.enableAdvanceFeatures=0x347 \
