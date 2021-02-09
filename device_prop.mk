@@ -21,23 +21,8 @@
 # definition file).
 #
 
-# Adaptive Display
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.qcom.ad=1 \
-	ro.qcom.ad.calib.data=/system/etc/calib.cfg \
-	ro.qcom.ad.sensortype=2
-
-# Audio
-PRODUCT_PROPERTY_OVERRIDES += \
-	persist.vendor.audio.fluence.voicecall=true \
-	persist.vendor.audio.fluence.voicerec=false \
-	persist.vendor.audio.fluence.speaker=true \
-	vendor.audio.adm.buffering.ms=6 \
-	vendor.audio.offload.track.enable=false
-
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-	persist.bokeh.switch.lux=290 \
 	persist.camera.auxswitch.threshold=330 \
 	persist.camera.imglib.usefdlite=1 \
 	persist.camera.depth.focus.cb=0 \
@@ -48,17 +33,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.camera.mainswitch.threshold=419 \
 	persist.camera.set.afd=4 \
 	persist.camera.stats.test=0 \
-	persist.flash.low.lux=390 \
-	persist.flash.light.lux=340 \
-	persist.imx376_sunny.low.lux=310 \
-	persist.imx376_sunny.light.lux=280 \
-	persist.imx376_ofilm.low.lux=310 \
-	persist.imx376_ofilm.light.lux=280 \
 	persist.sys.exif.make=Xiaomi \
 	persist.radio.VT_CAM_INTERFACE=2 \
-	ro.eyecare.brightness.threshold=3 \
-	ro.eyecare.brightness.level=8 \
-	ro.hist.brightness.threshold=5 \
 	persist.vendor.camera.multicam.hwsync=TRUE \
 	persist.vendor.camera.multicam.fpsmatch=TRUE \
 	persist.vendor.camera.enableAdvanceFeatures=0x347 \
