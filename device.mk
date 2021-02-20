@@ -69,8 +69,8 @@ PRODUCT_COPY_FILES += \
 	frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
 	frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
 
-# Properties
-TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+# Properties ($PATH.prop)
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 
 # Keylayout
 PRODUCT_COPY_FILES += \
