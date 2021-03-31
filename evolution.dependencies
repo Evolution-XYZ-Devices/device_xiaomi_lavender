@@ -14,5 +14,17 @@
  {
    "repository"   : "kernel_xiaomi_lavender",
    "target_path"  : "kernel/xiaomi/sdm660"
+ },
+ {
+   "remote": "github",
+   "repository": "lavender-sdm660/vendor_xiaomi_dirac",
+   "target_path": "vendor/xiaomi/dirac",
+   "branch": "dumaloo-release"
+ },
+ {
+   "remote": "github",
+   "repository": "AOSP-11/hardware_qcom-caf_display_msm8998",
+   "target_path": "hardware/qcom-caf/msm8998/display-r",
+   "branch": "11"  
  }
 ]
