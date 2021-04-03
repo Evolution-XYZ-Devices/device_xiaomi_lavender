@@ -1066,6 +1066,9 @@ vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
 vendor/lib64/libqtikeymaster4.so
 
+# Wi-Fi - from jasmine-user 10 V11.0.22.0.QDIMIXM
+vendor/bin/cnss-daemon
+
 # Sensors - from LA.UM.8.2.r1-06700-sdm660.0
 vendor/lib/sensors.ssc.so
 vendor/lib64/sensors.ssc.so
