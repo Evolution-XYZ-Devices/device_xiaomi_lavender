@@ -26,6 +26,10 @@ PRODUCT_PACKAGES += \
 # Consumerir
 BOARD_HAVE_IR := true
 
+# Dynamic partitions
+PRODUCT_COPY_FILES += \
+    $(DEVICE_PATH)/partitions/flash_super_dummy.sh:install/bin/flash_super_dummy.sh
+
 # FM
 BOARD_HAVE_QCOM_FM := true
 

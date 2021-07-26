@@ -8,12 +8,14 @@ import common
 
 def FullOTA_InstallEnd(info):
   OTA_InstallEnd(info)
+  return
 
 def IncrementalOTA_InstallEnd(info):
   OTA_InstallEnd(info)
+  return
 
-def AddImage(info, basename, dest):
-  path = "IMAGES/" + basename
+def AddImage(info, dir, basename, dest):
+  path = dir + "/" + basename
   if path not in info.input_zip.namelist():
     return
 
@@ -21,6 +23,14 @@ def AddImage(info, basename, dest):
   common.ZipWriteStr(info.output_zip, basename, data)
   info.script.AppendExtra('package_extract_file("%s", "%s");' % (basename, dest))
 
+def FullOTA_InstallBegin(info):
+  AddImage(info, "RADIO", "super_dummy.img", "/tmp/super_dummy.img");
+  info.script.AppendExtra('package_extract_file("install/bin/flash_super_dummy.sh", "/tmp/flash_super_dummy.sh");')
+  info.script.AppendExtra('set_metadata("/tmp/flash_super_dummy.sh", "uid", 0, "gid", 0, "mode", 0755);')
+  info.script.AppendExtra('run_program("/tmp/flash_super_dummy.sh");')
+  return
+
 def OTA_InstallEnd(info):
   info.script.Print("Patching device-tree and verity images...")
-  AddImage(info, "vbmeta.img", "/dev/block/bootdevice/by-name/vbmeta")
+  AddImage(info, "IMAGES", "vbmeta.img", "/dev/block/bootdevice/by-name/vbmeta")
+  return
