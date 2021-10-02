@@ -50,9 +50,7 @@ TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
 # Consumerir
-PRODUCT_PACKAGES += \
-	android.hardware.ir@1.0-impl \
-	android.hardware.ir@1.0-service
+BOARD_HAVE_IR := true
 
 # Device properties
 $(call inherit-product, $(DEVICE_PATH)/device_prop.mk)
@@ -66,8 +64,7 @@ PRODUCT_COPY_FILES += \
 
 # Permissions
 PRODUCT_COPY_FILES += \
-	frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
-	frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
+	frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml
 
 # Properties ($PATH.prop)
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
