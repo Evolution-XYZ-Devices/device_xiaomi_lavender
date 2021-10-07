@@ -59,7 +59,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.vendor.ov13855_sunny.light.lux=370 \
 	persist.vendor.s5k3l8_ofilm.low.lux=379 \
 	persist.vendor.s5k3l8_ofilm.light.lux=367 \
-	persist.vendor.camera.stats.test=5 \
 	persist.vendor.camera.depth.focus.cb=0 \
 	persist.vendor.camera.imglib.usefdlite=1 \
 	persist.vendor.imx376_sunny.low.lux=290 \
