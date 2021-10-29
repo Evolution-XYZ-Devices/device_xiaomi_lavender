@@ -17,26 +17,20 @@
  },
  {
    "remote": "github",
-   "repository": "ParsimoniousLavender/vendor_xiaomi_dirac",
-   "target_path": "vendor/xiaomi/dirac",
-   "branch": "11"
- },
- {
-   "remote": "github",
    "repository": "ParsimoniousLavender/hardware_qcom-caf_display_msm8998",
    "target_path": "hardware/qcom-caf/msm8998-r/display",
-   "branch": "11"  
+   "branch": "twelve"  
  },
  {
    "remote": "github",
    "repository": "ParsimoniousLavender/hardware_qcom-caf_media_msm8998",
    "target_path": "hardware/qcom-caf/msm8998-r/media",
-   "branch": "11"
+   "branch": "twelve"
  },
  {
    "remote": "github",
    "repository": "ParsimoniousLavender/hardware_qcom-caf_audio_msm8998",
    "target_path": "hardware/qcom-caf/msm8998-r/audio",
-   "branch": "11"
+   "branch": "twelve"
  }
 ]
