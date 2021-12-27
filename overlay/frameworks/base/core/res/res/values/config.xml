@@ -376,4 +376,16 @@
          Settings.System.RING_VIBRATION_INTENSITY more details on the constant values and
          meanings. -->
     <integer name="config_defaultRingVibrationIntensity">3</integer>
+
+    <!-- Default color temperature, in Kelvin, to tint the screen when Night display is
+         activated. -->
+    <integer name="config_nightDisplayColorTemperatureDefault">3339</integer>
+
+    <!-- Boolean indicating whether the HWC setColorTransform function can be performed efficiently
+         in hardware for individual layers. -->
+    <bool name="config_setColorTransformAcceleratedPerLayer">true</bool>
+
+    <!-- Maximum color temperature, in Kelvin, supported by Night display.
+         Setting this to track the default color temperature value (currently 6500K). -->
+    <integer name="config_nightDisplayColorTemperatureMax">6500</integer>
 </resources>
