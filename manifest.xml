@@ -34,4 +34,11 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <transport>hwbinder</transport>
         <fqname>@4.0::IKeymasterDevice/default</fqname>
     </hal>
+    <hal format="hidl">
+        <name>com.fingerprints.extension</name>
+        <transport>hwbinder</transport>
+        <fqname>@2.0::IFingerprintEngineering/default</fqname>
+        <fqname>@2.0::IFingerprintNavigation/default</fqname>
+        <fqname>@2.0::IFingerprintSensorTest/default</fqname>
+    </hal>
 </manifest>
