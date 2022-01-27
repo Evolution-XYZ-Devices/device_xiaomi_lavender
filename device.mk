@@ -126,7 +126,6 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     libdng_sdk.vendor \
     libstdc++.vendor \
-    Snap \
     vendor.qti.hardware.camera.device@1.0:64
 
 # ConsumerIR
