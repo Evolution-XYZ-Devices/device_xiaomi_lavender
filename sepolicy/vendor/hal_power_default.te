@@ -21,3 +21,5 @@ allow hal_power_default self:capability sys_nice;
 allow hal_power_default system_server:process setsched;
 
 set_prop(hal_power_default, vendor_power_prop)
+
+allow hal_power_default proc:file { open };
