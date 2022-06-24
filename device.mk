@@ -115,6 +115,9 @@ PRODUCT_PACKAGES += \
     libldacBT_bco \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
+# Blur
+TARGET_ENABLE_BLUR := true
+
 # Camera
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
