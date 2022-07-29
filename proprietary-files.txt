@@ -1557,19 +1557,17 @@ vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc|76447a61ad5529949365eeb
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so|9cf774301dfb59173cc2a6871ff851ea6b546f39
 vendor/lib64/vendor.qti.hardware.soter@1.0.so|5815859dc07d3181901596d06612b379e86fe6fd
 
-# Thermal - from lavender V11.0.5.0.PFGCNXM
+# Thermal - from lavender V12.5.3.0.QFGMIXM
 vendor/bin/thermal-engine|8b77c4541d74abb4d17e5b46dbfcf46ea7290283
 vendor/etc/thermal-engine-camera.conf|db9829a655ca0c3013448e6a4aee3fcce9f90ca2
-vendor/etc/thermal-engine-map.conf|7c86d130de03ee8a0ebebc2e8f2eeda0e574cdf6
-vendor/etc/thermal-engine-normal.conf|9c875e1102da2503db5bc295327c28a4b6c6452e
+vendor/etc/thermal-engine-map.conf|19c9ec67a63568470061413e47d420321040ef2a
+vendor/etc/thermal-engine-normal.conf|f44b43de8ec730aed99e289be99c7fc814da5e94
 vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
 -vendor/lib/libthermalclient.so|c3aecc7610e8f5775a6f6af2ff7790bef74380a1
+vendor/lib/libthermalfeature.so|b2a90496eb99301cc0f065fe97782358858668a3
 -vendor/lib64/libthermalclient.so|84072e150722cc668320f07a75cb8695ce1a79b0
 vendor/lib64/libthermalfeature.so|1c408911610e5b6a11853aff1900860f9e9a861f
 vendor/lib64/libthermalioctl.so|d7055e46d8ba5e83b213c5f38d936f3ea71003c2
-
-# Thermal - from jasmine
-vendor/etc/thermal-engine-youtube.conf|d7f04f645be71847281ce1e4a2caa3bba153fcaa
 
 # Time services - from jasmine
 -vendor/app/TimeService/TimeService.apk|27f9b81621c446baa8c37581d9bfbca2fd67b496
