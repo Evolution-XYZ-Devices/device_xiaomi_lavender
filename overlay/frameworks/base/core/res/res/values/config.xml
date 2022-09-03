@@ -379,4 +379,7 @@
     <!-- Maximum color temperature, in Kelvin, supported by Night display.
          Setting this to track the default color temperature value (currently 6500K). -->
     <integer name="config_nightDisplayColorTemperatureMax">6500</integer>
+
+    <!-- Determines whether the shell features all run on another thread. -->
+    <bool name="config_enableShellMainThread">true</bool>
 </resources>
