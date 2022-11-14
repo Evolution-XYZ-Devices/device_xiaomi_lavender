@@ -150,7 +150,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.1-service \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
-    android.hardware.renderscript@1.0-impl \
     android.frameworks.displayservice@1.0 \
     gralloc.sdm660 \
     hwcomposer.sdm660 \
@@ -317,10 +316,6 @@ PRODUCT_COPY_FILES += \
 # QMI
 PRODUCT_PACKAGES += \
     libjson
-
-# RenderScript HAL
-PRODUCT_PACKAGES += \
-    android.hardware.renderscript@1.0-impl
 
 # RIL
 PRODUCT_PACKAGES += \
