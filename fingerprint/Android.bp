@@ -1,15 +1,15 @@
 //
-// Copyright (C) 2017-2018 The LineageOS Project
+// Copyright (C) 2022-2023 The LineageOS Project
 //
 // SPDX-License-Identifier: Apache-2.0
 //
 
 cc_binary {
-    name: "android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm660",
+    name: "android.hardware.biometrics.fingerprint@2.1-service.lavender",
     relative_install_path: "hw",
     defaults: ["hidl_defaults"],
-    init_rc: ["android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm660.rc"],
-    vintf_fragments: ["android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sdm660.xml"],
+    init_rc: ["android.hardware.biometrics.fingerprint@2.1-service.lavender.rc"],
+    vintf_fragments: ["android.hardware.biometrics.fingerprint@2.1-service.lavender.xml"],
     srcs: ["service.cpp", "BiometricsFingerprint.cpp"],
     shared_libs: [
         "libbase",

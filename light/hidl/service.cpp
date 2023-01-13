@@ -1,11 +1,11 @@
 /*
  * Copyright (C) 2018 The Android Open Source Project
- * Copyright (C) 2020 The LineageOS Project
+ * Copyright (C) 2022-2023 The LineageOS Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define LOG_TAG "android.hardware.light@2.0-service.xiaomi_sdm660"
+#define LOG_TAG "android.hardware.light@2.0-service.lavender"
 
 #include <android-base/logging.h>
 #include <hidl/HidlTransportSupport.h>

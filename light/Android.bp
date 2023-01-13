@@ -1,14 +1,14 @@
 //
-// Copyright (C) 2018 The Android Open Source Project
+// Copyright (C) 2022-2023 The Android Open Source Project
 //
 // SPDX-License-Identifier: Apache-2.0
 //
 
 cc_binary {
     defaults: ["hidl_defaults"],
-    name: "android.hardware.light@2.0-service.xiaomi_sdm660",
-    init_rc: ["hidl/android.hardware.light@2.0-service.xiaomi_sdm660.rc"],
-    vintf_fragments: ["hidl/android.hardware.light@2.0-service.xiaomi_sdm660.xml"],
+    name: "android.hardware.light@2.0-service.lavender",
+    init_rc: ["hidl/android.hardware.light@2.0-service.lavender.rc"],
+    vintf_fragments: ["hidl/android.hardware.light@2.0-service.lavender.xml"],
     srcs: ["hidl/service.cpp", "hidl/Light.cpp"],
     shared_libs: [
         "libbase",
@@ -21,10 +21,10 @@ cc_binary {
 }
 
 cc_binary {
-    name: "android.hardware.lights-service.xiaomi_sdm660",
+    name: "android.hardware.lights-service.lavender",
     relative_install_path: "hw",
-    init_rc: ["aidl/android.hardware.lights.xiaomi_sdm660.rc"],
-    vintf_fragments: ["aidl/android.hardware.lights.xiaomi_sdm660.xml"],
+    init_rc: ["aidl/android.hardware.lights.lavender.rc"],
+    vintf_fragments: ["aidl/android.hardware.lights.lavender.xml"],
     vendor: true,
     shared_libs: [
         "libbase",

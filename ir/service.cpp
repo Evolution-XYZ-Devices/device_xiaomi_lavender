@@ -1,10 +1,10 @@
 /*
- * Copyright 2016 The Android Open Source Project
+ * Copyright 2022-2023 The Android Open Source Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define LOG_TAG "android.hardware.ir@1.0-service.xiaomi_sdm660"
+#define LOG_TAG "android.hardware.ir@1.0-service.lavender"
 
 #include <android-base/logging.h>
 #include <hidl/HidlTransportSupport.h>

@@ -1,15 +1,15 @@
 //
-// Copyright (C) 2016 The Android Open Source Project
+// Copyright (C) 2022-2023 The Android Open Source Project
 //
 // SPDX-License-Identifier: Apache-2.0
 //
 
 cc_binary {
-    name: "android.hardware.ir@1.0-service.xiaomi_sdm660",
+    name: "android.hardware.ir@1.0-service.lavender",
     defaults: ["hidl_defaults"],
     relative_install_path: "hw",
-    init_rc: ["android.hardware.ir@1.0-service.xiaomi_sdm660.rc"],
-    vintf_fragments: ["android.hardware.ir@1.0-service.xiaomi_sdm660.xml"],
+    init_rc: ["android.hardware.ir@1.0-service.lavender.rc"],
+    vintf_fragments: ["android.hardware.ir@1.0-service.lavender.xml"],
     srcs: [
         "ConsumerIr.cpp",
         "service.cpp",

@@ -1,13 +1,13 @@
 /*
  * Copyright (C) 2018 The Android Open Source Project
- * Copyright (C) 2020 The LineageOS Project
+ * Copyright (C) 2022-2023 The LineageOS Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
 
 // Author := dev_harsh1998, Isaac Chen
 
-#define LOG_TAG "android.hardware.light@2.0-impl.xiaomi_sdm660"
+#define LOG_TAG "android.hardware.light@2.0-impl.lavender"
 /* #define LOG_NDEBUG 0 */
 
 #include "Light.h"

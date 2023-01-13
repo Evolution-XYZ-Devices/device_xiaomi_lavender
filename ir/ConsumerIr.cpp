@@ -1,10 +1,10 @@
 /*
- * Copyright (C) 2016 The Android Open Source Project
+ * Copyright (C) 2022-2033 The Android Open Source Project
  *
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define LOG_TAG "ConsumerIrService.xiaomi_sdm660"
+#define LOG_TAG "ConsumerIrService.lavender"
 
 #include <android-base/logging.h>
 
