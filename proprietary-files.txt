@@ -1592,9 +1592,9 @@ vendor/lib64/libcpion.so|ff24ef248bb35fd3cc1081a63f33c2565dc6351f
 vendor/lib64/libhdcpsrm.so|ee8e7c29e2b716a8bb07c3cbb730e34d8af3c64e
 vendor/lib64/libwvhidl.so|0466cd3b2a7b93efd23945e2637430513472ad7c
 
-# Widevine - from lavender V12.0.1.0.QFGMIXM
-vendor/lib/liboemcrypto.so|ad286cf38f8b00a5c9b0b0f424e4a5bd1f47f046
-vendor/lib64/liboemcrypto.so|e44fa8bf9bed1541342390bf316c34fe9f29cc4e
+# Widevine - from lavender lavender-user-10-QKQ1.190910.002-V12.5.3.0.QFGMIXM-release-keys
+vendor/lib/liboemcrypto.so
+vendor/lib64/liboemcrypto.so
 
 # Wifi
 vendor/bin/cnss-daemon
