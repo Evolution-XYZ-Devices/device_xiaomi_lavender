@@ -176,7 +176,7 @@ debug.sf.early_phase_offset_ns=1500000
 ro.surface_flinger.has_wide_color_display=true
 
 # SoC
-ro.soc.manufacturer=Qualcomm
+ro.soc.manufacturer=QTI 
 ro.soc.model=SDM660
 
 # Time
