@@ -27,4 +27,10 @@
          should be either LOW (1) or HIGH (3).
     -->
     <integer name="config_vibration_supported_intensity_levels">3</integer>
+
+    <!-- Batter health -->
+    <bool name="config_supportBatteryHealth">true</bool>
+    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_counter</string>
+    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full_design</string>
+    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
 </resources>
