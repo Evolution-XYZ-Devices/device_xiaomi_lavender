@@ -1,20 +1,32 @@
-type xiaomiparts_app, domain;
-typeattribute xiaomiparts_app mlstrustedsubject;
-
 app_domain(xiaomiparts_app)
 
-# Access standard system services
-allow xiaomiparts_app app_api_service:service_manager find;
+binder_call(xiaomiparts_app, gpuservice)
 
-# Allow reading and writing shared prefs
+allow xiaomiparts_app {
+  activity_service
+  activity_task_service
+  audio_service
+  audioserver_service
+  autofill_service
+  cameraserver_service
+  gpu_service
+  media_session_service
+  mediaextractor_service
+  mediametrics_service
+  mediaserver_service
+  sensorservice_service
+  storagestats_service
+  surfaceflinger_service
+  tethering_service
+}:service_manager find;
+
 allow xiaomiparts_app system_app_data_file:dir create_dir_perms;
 allow xiaomiparts_app system_app_data_file:{ file lnk_file } create_file_perms;
 
-# Allow binder communication with gpuservice
-binder_call(xiaomiparts_app, gpuservice)
+allow xiaomiparts_app sysfs_leds:dir r_dir_perms;
 
-# Allow XiaomiParts to read and write to cgroup
-allow xiaomiparts_app cgroup:file rw_file_perms;
-
-# Allow XiaomiParts to write to sysfs_thermal
-allow xiaomiparts_app sysfs_thermal:file w_file_perms;
+allow xiaomiparts_app {
+  cgroup
+  sysfs_leds
+  sysfs_thermal
+}:file rw_file_perms;
