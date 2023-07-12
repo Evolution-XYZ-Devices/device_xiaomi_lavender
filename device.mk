@@ -32,7 +32,7 @@ BOARD_HAVE_QCOM_FM := true
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-lineage
+    $(DEVICE_PATH)/overlay-evolution
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay \
