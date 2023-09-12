@@ -54,10 +54,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
-# USB
-PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service
-
 # Wifi
 PRODUCT_PACKAGES += \
     LavenderWifiOverlay
