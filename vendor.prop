@@ -20,12 +20,3 @@ dalvik.vm.heapmaxfree=8m
 # SurfaceFlinger
 ro.surface_flinger.has_wide_color_display=true
 ro.surface_flinger.use_color_management=true
-
-# USB
-sys.usb.mtp.batchcancel=1
-vendor.usb.diag.func.name=diag
-vendor.usb.dpl.inst.name=dpl
-vendor.usb.rmnet.func.name=gsi
-vendor.usb.rmnet.inst.name=rmnet
-vendor.usb.use_ffs_mtp=1
-vendor.usb.use_gadget_hal=0

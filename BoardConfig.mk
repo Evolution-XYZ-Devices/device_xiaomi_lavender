@@ -61,8 +61,5 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-06-01
 
-# SELinux
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-
 # Inherit the proprietary files
 include vendor/xiaomi/lavender/BoardConfigVendor.mk
